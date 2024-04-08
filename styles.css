@@ -6,7 +6,7 @@ body{
 
 header{
     background-color: #333;
-    color: #fff;
+    color: #fb0f0f;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -16,6 +16,30 @@ header{
     order: -1;
 }
 .logo img{
-    width: 200px;
+    width: 180px;
     height: auto;
+}
+
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #111;
+    border-radius: 5px;
+  }
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
