@@ -1,100 +1,106 @@
 
 <!DOCTYPE html>
 <html lang="es">
-    
     <head>
         <meta charset="UTF-8">
-        <title>COPA AMÈRICA 2024</title>
+        <title>COPA AMÉRICA 2024</title>
         <link rel = "stylesheet" href="styles.css">
 </head>
-
 <body>
+    <div>
+        
+    </div>
     <header>
         <h1>COPA AMÉRICA 2024</h1>
-        <div class="logo">
-            <img src="images/logo_copa.png">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#estadios">Estadios</a></li>
-                <li><a href="#noticias">Noticias</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-                
-            </ul>
-        </nav>
+                <div class="logo">
+                    <img src="images/logo_copa.png">
+                </div>
+                    <nav>
+                        <ul>
+                                <li><a href="index.html">Inicio</a></li>
+                                <li><a href="participantes.html">Participantes</a></li>
+                                <li><a href="estadios.html">Estadios</a></li>
+                                <li><a href="#noticias">Noticias</a></li>
+                                <li><a href="#videos">Videos</a></li>
+                        </ul>
+                    </nav>
     </header>
+
+    <section class="entrada">
+        <img src="images/fondo_entrada.png" width="1333px" height="500px">
+    </section>
+    <br>
 
     <section id="inicio">
         <br>
-        <h1>PAÍSES PARTICIPANTES</h1>
-        <table border="1">
-            <thead>
-                <tr>
-                    <td>País</td>
-                    <td>Bandera</td>
-                    <td>Capitán</td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Argentina</td>
-                    <td><img src="images/argentina.jpg"></td>
-                    <td>Messi</td>
-                </tr>
-                <tr>
-                    <td>Brasil</td>
-                    <td><img src="images/brasil.jpg"></td>
-                    <td>Neymar Jr.</td>
-                </tr>
-                <tr>
-                    <td>Perú</td>
-                    <td><img src="images/bandera_peru.png"></td>
-                    <td>Lapadula</td>
-                </tr>
-            </tbody>
-        </table>
+        <p class="subti">La Copa América 2024 Inicia en...</p>  
+        <div class="container">
+            <div class="imagen">
+                <img src="images/logo_copa.png" alt="Logo Copa" width="500px" height="180px">
+            </div>
+            <div class="temporizador">
+                <div id="contador"></div>
+            </div>
+        </div>
     </section>
-
-    <section id="estadios">
-        <h1>Estadios</h1>
-        <table border="1">
-            <thead>
-                <tr>
-                    <td>Descripción</td>
-                    <td>Referencia</td>
-                    <td>Datos</td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>BC Place Vancouver<br>Inauguración: 1983
-                        <br>Fixture de la Copa Mundial de la FIFA 26™</td>
-                    <td><img src=""></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                </tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-                <tr></tr>
-            </tbody>
-        </table>
-
-    </section>
+    <br>
+    <p class="subti">PRESENTACIÓN</p> 
+    <div id="seccionTexto">
+        <p>La Copa América 2024 será la 48.ª edición de este torneo, la principal competencia futbolística 
+        <br>entre las selecciones nacionales de América del Sur y la más antigua del mundo, será coorganizada 
+        <br>por la Confederación Sudamericana de Fútbol (Conmebol) y la Confederación de Norteamérica, 
+        <br>Centroamérica y el Caribe de Fútbol (Concacaf). Por segunda vez el torneo se realizará en 
+        <br>Estados Unidos desde la última vez en la edición centenario de 2016, será disputada del 20 de junio
+        <br> al 14 de julio de 2024</p>
+    </div>
+    
+    <script src="temporizador.js"></script>
 
     <section id="noticias">
-        <h1>Apartado de noticias</h1>
+        <br>
+        <p class="subti">NOTICIAS</p>  
+        <br>
+
+        <div id="carrusel1">
+            <a href="https://gestion.pe/noticias/copa-america/" target="_blank">
+                <img id="imagen1" src="images_noticias/copa_gestion.avif" alt="Imagen 1">
+            </a>
+        </div>
+        <script src="noticias.js"></script>
+
+        <div id="carrusel2">
+            <a href="https://rpp.pe/futbol/futbol-mundial/conmebol-firmo-acuerdo-con-israel-y-podia-jugar-la-copa-america-noticia-1547258" target="_blank">
+                <img id="imagen2" src="images_noticias/israel_firma_rpp.webp" alt="Imagen 2">
+            </a>
+        </div>
+        <script src="noticias.js"></script>
+
     </section>
 
-    <section id="contacto">
-        <h1>Apartado de contacto</h1>
+    <section id="videos">
+        <br>
+        <p class="subti">VIDEOS</p>  
+        <br>
+        <div class="video1">
+            <iframe width="440" height="315" src="https://www.youtube.com/embed/zUvSh7vWW5I?si=gMMCg-bOR_2pp9UJ" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="video2">
+            <iframe width="440" height="315" src="https://www.youtube.com/embed/XdGtqTK83no?si=tz8DSrJZBrBcpUV8" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="video3">
+            <iframe width="440" height="315" src="https://www.youtube.com/embed/LTaMpMZ-yfE?si=bxtWuS87KHgE6jmy" title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen></iframe>
+        </div>
     </section>
 
 </body>
-<footer>
-    <p>&copy; 2024 Copa Amèrica. Todos los derechos reservados. ESAN</p>
+<br>
+<footer class="referencia">
+    <p>&copy; 2024 Copa América. Todos los derechos reservados. ESAN</p>
 </footer>
 </html>
